@@ -1,0 +1,71 @@
+{
+    "standard_price": 5385,
+    "configs": [
+        {
+            "name": "1",
+            "float_a": 0.115,
+            "weight_b": 0.40,
+            "float_c3": -0.0150
+        },
+        {
+            "name": "2",
+            "float_a": 0.120,
+            "weight_b": 0.42,
+            "float_c3": -0.0100
+        },
+        {
+            "name": "3",
+            "float_a": 0.125,
+            "weight_b": 0.44,
+            "float_c3": -0.0050
+        },
+        {
+            "name": "4",
+            "float_a": 0.130,
+            "weight_b": 0.46,
+            "float_c3": 0.0000
+        },
+        {
+            "name": "5",
+            "float_a": 0.135,
+            "weight_b": 0.48,
+            "float_c3": 0.0050
+        },
+        {
+            "name": "6",
+            "float_a": 0.140,
+            "weight_b": 0.50,
+            "float_c3": 0.0100
+        },
+        {
+            "name": "7",
+            "float_a": 0.145,
+            "weight_b": 0.52,
+            "float_c3": 0.0150
+        },
+        {
+            "name": "8",
+            "float_a": 0.150,
+            "weight_b": 0.54,
+            "float_c3": 0.0000
+        },
+        {
+            "name": "9",
+            "float_a": 0.155,
+            "weight_b": 0.56,
+            "float_c3": 0.0000
+        },
+        {
+            "name": "10",
+            "float_a": 0.160,
+            "weight_b": 0.58,
+            "float_c3": 0.0000
+        },
+        {
+            "name": "11",
+            "float_a": 0.165,
+            "weight_b": 0.60,
+            "float_c3": 0.0000
+        }
+    ]
+} 

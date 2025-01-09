@@ -1,0 +1,37 @@
+my_project/
+│
+├── src/                    # 源代码目录
+│   └── my_project/        # 主要的包目录
+│       ├── __init__.py
+│       ├── core/          # 核心功能模块
+│       │   ├── __init__.py
+│       │   └── main.py
+│       ├── utils/         # 工具函数
+│       │   ├── __init__.py
+│       │   └── helpers.py
+│       └── config/        # 配置文件
+│           ├── __init__.py
+│           └── settings.py
+│
+├── tests/                 # 测试目录
+│   ├── __init__.py
+│   ├── test_core.py
+│   └── test_utils.py
+│
+├── docs/                  # 文档目录
+│   ├── api.md
+│   └── user_guide.md
+│
+├── requirements/          # 依赖管理
+│   ├── base.txt          # 基础依赖
+│   ├── dev.txt           # 开发环境依赖
+│   └── prod.txt          # 生产环境依赖
+│
+├── scripts/              # 脚本文件
+│   └── deploy.sh
+│
+├── .gitignore           # Git 忽略文件
+├── README.md            # 项目说明文档
+├── setup.py             # 包安装配置
+├── pyproject.toml       # 项目配置（用于 poetry 等工具）
+└── Makefile            # 项目管理命令 

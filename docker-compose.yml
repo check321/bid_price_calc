@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  bid-calculator:
+    build: .
+    container_name: bid-calculator
+    ports:
+      - "7860:7860"
+    volumes:
+      - ./src/my_project/core/result.json:/app/src/my_project/core/result.json
+      - ./src/my_project/config:/app/src/my_project/config
+    restart: unless-stopped 
